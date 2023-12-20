@@ -73,7 +73,7 @@ body[aria-hidden='true'] {
 			transition: border 0.3s;
 
 			img {
-				width: 32px;
+				height: 22px;
 				margin: auto;
 			}
 		}
@@ -489,16 +489,16 @@ body[aria-hidden='true'] {
 				transform: translateX(0);
 			}
 
-			@keyframes linkAnimation {	
-				from {
-					transform: translateX(0);
-					opacity: 1;
-				}
-				to {
-					transform: translateX(0);
-					opacity: 1;
-				}
-			}
+			// @keyframes linkAnimation {	
+			// 	from {
+			// 		transform: translateX(0);
+			// 		opacity: 1;
+			// 	}
+			// 	to {
+			// 		transform: translateX(0);
+			// 		opacity: 1;
+			// 	}
+			// }
 
 			&__list {
 				padding-left: 0;
